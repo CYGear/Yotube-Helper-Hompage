@@ -4,7 +4,79 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Homepage</title>
-    <link rel="stylesheet" href="styles/style.css">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Header */
+        header {
+            background: #333;
+            color: #fff;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+        }
+
+        /* Main Content */
+        main {
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: left;
+        }
+
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #444;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style: disc;
+            margin-left: 20px;
+        }
+
+        /* Footer */
+        footer {
+            margin-top: 30px;
+            background: #333;
+            color: #fff;
+            padding: 10px;
+            font-size: 0.9em;
+        }
+
+        footer a {
+            color: #4caf50;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -23,14 +95,13 @@
                 <li>Powered by GitHub and Cloudflare Pages</li>
             </ul>
         </section>
-        <section id="click-section">
-            <button id="magic-button">Click Me!</button>
-            <p id="magic-message"></p>
-        </section>
     </main>
     <footer>
         <p>&copy; 2024 My Homepage. All rights reserved.</p>
+        <p>
+            <a href="privacy-policy.html">Privacy Policy</a> |
+            <a href="terms-of-service.html">Terms of Service</a>
+        </p>
     </footer>
-    <script src="scripts/app.js"></script>
 </body>
 </html>
